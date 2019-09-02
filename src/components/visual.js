@@ -59,7 +59,7 @@ const deliveryZoneData = [
     {'name' : 'East'}
 ];
 
-export default class Visualization extends Component {
+export default class Visual extends Component {
 
     state = {
         viewport: {
@@ -83,16 +83,11 @@ export default class Visualization extends Component {
         this.setState({ selectedPark : value });
     }
 
-
     handleChange = (event) => {
-        console.log(event.target.name);
-
-        console.log(event.target.value);
         this.setState({   [event.target.name]: event.target.value}
         ,()=>{
             this.handleFilter();
         });
-
     }
 
     handleFilter = () =>{
@@ -132,16 +127,12 @@ export default class Visualization extends Component {
                 time2.setSeconds(0);
                 break;
         }
-
         if(this.state.mapZone !== 'All'){
             newData = newData.filter(value => value.zone === this.state.mapZone);
         }
-
         if(this.state.mapTime !== 'All'){
             newData = newData.filter(value => (new Date(value.delivered_at).getHours()) >= time1.getHours() && (new Date(value.delivered_at).getHours()) <= time2.getHours() );
         }
-
-
 
         this.setState({  data: newData, zoneData: newZoneData}
             ,()=>{
@@ -173,13 +164,13 @@ export default class Visualization extends Component {
 
     render() {
         const {selectedPark, viewport,mapMonth,mapZone,mapTime, data, zoneData } = this.state;
-        return (
 
+        return (
             <div style={useStyles.root}>
                 <AppBar position="static" style={{backgroundColor: 'black', color: 'white'}}>
                     <Toolbar>
                         <Typography variant="h6" style={useStyles.title}>
-                            Failed Delivery
+                         Total Failed Delivery {data.length}
                         </Typography>
                         <Button color="inherit">Month:</Button>
                         <Select
@@ -190,13 +181,13 @@ export default class Visualization extends Component {
                                 name: 'mapMonth',
                             }}
                         >
-                            {months.map(month => (
-                                <MenuItem key={month} value={month}>
-                                    {month}
-                                </MenuItem>
-                            ))}
+                            <MenuItem value='Current'>
+                               Current
+                            </MenuItem>
+                            {/*{months.map(month => (*/}
+                               {/**/}
+                            {/*))}*/}
                         </Select>
-
                         <Button color="inherit">Zone:</Button>
                         <Select
                             style={{color: 'white', borderBottom: '0.5px solid grey'}}
@@ -212,9 +203,7 @@ export default class Visualization extends Component {
                                 </MenuItem>
                             ))}
                         </Select>
-
                         <Button color="inherit">Delivery Slot:</Button>
-
                         <Select
                             style={{color: 'white', borderBottom: '0.5px solid grey'}}
                             value={mapTime}
@@ -235,8 +224,8 @@ export default class Visualization extends Component {
                 <Grid container className="content">
                     <Grid item xs={3}>
                         <Grid container>
-                            {zoneData.map(zone => (
-                                <Grid item xs={12} >
+                            {zoneData.map((zone,key) => (
+                                <Grid item xs={12} key={key} >
                                     <Paper className="zone" style={{color:this.bgcColor(zone.name)}}>{zone.name}
                                         <Grid className="zone-content" container style={{textAlign:'center'}}>
                                             <Grid item xs={12}>
@@ -245,11 +234,10 @@ export default class Visualization extends Component {
 
                                         </Grid>
                                     </Paper>
-
                                 </Grid>
-                            ))}
+                                ))
+                            }
                         </Grid>
-
                     </Grid>
 
                     <Grid item xs={9}>
