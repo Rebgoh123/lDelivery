@@ -15,11 +15,7 @@ html, body, div#root {
   padding: 0;
   position: relative;
   background: black !important;
-  overflow-x: hidden;
-}
-
-#root {
-  background: black;
+  overflow-x: hidden !important;
 }
 
 .menu {

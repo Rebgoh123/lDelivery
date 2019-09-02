@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce4f08a1-12c2-4039-9761-52d74c0936db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/visual.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/visual.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/delivery.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/delivery.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/css/body.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/css/body.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/css/body.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/css/body.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/css/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/scss/body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/scss/body.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,13 +28,13 @@
         <counts>
           <entry key="css" value="6" />
           <entry key="env" value="3" />
-          <entry key="gitignore" value="3" />
+          <entry key="gitignore" value="4" />
           <entry key="html" value="1" />
           <entry key="js" value="46" />
-          <entry key="json" value="13" />
+          <entry key="json" value="14" />
           <entry key="jsx" value="1" />
           <entry key="md" value="1" />
-          <entry key="scss" value="11" />
+          <entry key="scss" value="15" />
           <entry key="svg" value="2" />
         </counts>
       </usages-collector>
@@ -43,12 +43,12 @@
           <entry key=".env file" value="3" />
           <entry key="CSS" value="6" />
           <entry key="HTML" value="1" />
-          <entry key="JSON" value="13" />
+          <entry key="JSON" value="14" />
           <entry key="JSX Harmony" value="1" />
           <entry key="JavaScript" value="46" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="SCSS" value="11" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="SCSS" value="15" />
           <entry key="SVG" value="2" />
         </counts>
       </usages-collector>
@@ -63,7 +63,7 @@
           <entry key="js" value="6116" />
           <entry key="json" value="163" />
           <entry key="md" value="130" />
-          <entry key="scss" value="398" />
+          <entry key="scss" value="400" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -72,13 +72,23 @@
           <entry key="JSON" value="163" />
           <entry key="JavaScript" value="6116" />
           <entry key="Markdown" value="130" />
-          <entry key="SCSS" value="398" />
+          <entry key="SCSS" value="400" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -118,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/styles/scss/index.scss" />
@@ -128,9 +137,11 @@
         <option value="$PROJECT_DIR$/src/data/delivery.json" />
         <option value="$PROJECT_DIR$/src/components/menu.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/styles/scss/body.scss" />
         <option value="$PROJECT_DIR$/src/components/visual.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$USER_HOME$/Downloads/ldelivery-master (1)/ldelivery-master/src/styles/scss/body.scss" />
+        <option value="$PROJECT_DIR$/src/styles/scss/body.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -144,7 +155,6 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
-    <handled-path value="$USER_HOME$/Downloads/ldelivery-master/ldelivery-master/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -154,7 +164,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2728" />
     <option name="y" value="-8" />
     <option name="width" value="485" />
@@ -171,12 +181,7 @@
           <expand>
             <path>
               <item name="lazada_assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ldelivery-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lazada_assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ldelivery-master" type="462c0819:PsiDirectoryNode" />
-              <item name="ldelivery-master" type="462c0819:PsiDirectoryNode" />
+              <item name="lazada_assignment" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,7 +191,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ldelivery-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ldelivery-master (1)" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -227,24 +232,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567310368876</updated>
-      <workItem from="1567310370698" duration="33725000" />
+      <workItem from="1567310370698" duration="35401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33725000" />
+    <option name="totallyTimeSpent" value="35401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2728" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15104167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15104167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.23597884" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.4941799" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32910052" />
@@ -307,9 +313,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-router-dom/es/BrowserRouter.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -385,13 +388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="29" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -476,24 +472,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/scss/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/delivery.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="537">
           <caret line="520" column="6" lean-forward="true" selection-start-line="520" selection-start-column="6" selection-end-line="520" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/scss/body.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -537,6 +519,44 @@
             <element signature="e#4392#4954#0" />
             <element signature="e#5045#5608#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ldelivery-master (1)/ldelivery-master/src/styles/scss/index.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ldelivery-master (1)/ldelivery-master/src/styles/scss/body.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/scss/body.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/scss/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>

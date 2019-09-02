@@ -16,12 +16,9 @@ html, body, div#root {
   padding: 0;
   position:relative;
   background:black!important;
-  overflow-x: hidden;
+  overflow-x: hidden!important;
 }
 
-#root{
-  background:black;
-}
 .menu{
   padding:10px;
 
